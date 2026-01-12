@@ -94,6 +94,5 @@ This tool is for **authorized security testing only**. The developer assumes no 
 ---
 
 <p align="center">
-  Built with ❤️ by the Advanced Agentic Coding Team<br>
-  <b>All credits to Justin, Alexia, and Andrew.</b>
+  <b>Built by Justin Alexia Andrew</b>
 </p>
