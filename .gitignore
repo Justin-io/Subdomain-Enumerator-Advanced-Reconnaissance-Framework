@@ -1,0 +1,52 @@
+# === Subdomain Enumerator: Ultra Protection ===
+
+# 1. API Keys & Local Secrets
+.env
+.env*
+!.env.example
+
+# 2. Virtual Environments
+venv/
+.venv/
+env/
+.env/
+bin/
+lib/
+share/
+pyvenv.cfg
+
+# 3. Dynamic Scan Results (ULTRA PROTECTION)
+results.json
+results.csv
+*.json
+*.csv
+*.html
+*.txt
+!requirements.txt
+!real_wordlist.txt
+!modules/reporting.py  # Keep code, ignore reports
+!index.html            # If any static landing page exists (none currently)
+
+# 4. Internal Logs & Cache
+subenum.log
+*.log
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# 5. OS & IDE Specific
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 6. Artifact Memory (Agentic Mode)
+.gemini/
+.agent/
+brain/
+implementation_plan.md
+walkthrough.md
+task.md
